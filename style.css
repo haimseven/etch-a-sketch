@@ -1,11 +1,13 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px; /* Adjust width as needed */
+    height: 500px;
+    gap: 1px;
 }
 .square {
-    width: calc(100% / 16);
-    height: calc(100% / 16);
+    width: calc(100% / 16 - 3px); /* Adjust width and height to create square divs */
+    height: calc(100% / 16 - 3px);
     background-color: #ccc;
     border: 1px solid #999;
 }
