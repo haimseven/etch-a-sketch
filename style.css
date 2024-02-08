@@ -1,16 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #484848;
+    font-family: monospace;
+}
+
+#reset-button{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #47475d;
+    color: white;
+}
+
+#reset-button:hover{
+    border: 1px solid #f9ae4d;
+    color: #f9ae4d;
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 500px; /* Adjust width as needed */
+    width: 500px; 
     height: 500px;
     gap: 1px;
 }
 
 .square {
-    width: calc(100% / 16 - 3px); /* Adjust width and height to create square divs */
+    width: calc(100% / 16 - 3px); 
     height: calc(100% / 16 - 3px);
     background-color: #1a1c24;
     border: 1px solid #999;
+    border-radius: 3px;
     transition: background-color 0.3s ease;
 }
 
