@@ -9,9 +9,14 @@ body {
     font-family: monospace;
 }
 
+.header{
+    color:#f9ae4d;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 #reset-button{
     margin: 10px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     border: 1px solid white;
     background-color: #47475d;
